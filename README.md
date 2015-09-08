@@ -18,30 +18,39 @@
 - Remove any debris plastic from the environment.
 - Clean the PEI bed with isopropyl.
 - Close the door.
+
 2 Click the "+" next to the status tab.
+
 - Click either icons that read:
     - Add model
     - From cloud (requires an [account][mmf])
 - Move your model so you are happy with it's placing.
     - Use the "Transform" section in the left pannel to rotate the x-axis and scale your model.
     - Use the "Lay flat" command and hand to select a side to change either z or y co-ords to x co-ords.
+
 3 Click "To settings"
-    - Use the sliders in the left panel to adust the print quality.
-    - Click "Make".
-    - You will return to the "Status" tab. 
+
+- Use the sliders in the left panel to adust the print quality.
+- Click "Make".
+- You will return to the "Status" tab. 
 - The software will slice the model accordingly to create layers, the amount of layers and the print time will be relayed to you in the Status tab you were returned to.
+
 4 Set "Speed x" in the left panel to 0.5 with the slider.
-   - Leave this set at 0.5 if your model is intricate.
+
+- Leave this set at 0.5 if your model is intricate.
 - The print will begin when all components reach their target temperatures, details of which are relayed back to you in the panel in the left panel of the Automaker software. It will complete after the final layer has been printed.
 - After the first five layers set the "Speed x" slider back to 1, increase it if your model is simple (max speed 1.5).
+
 5 When the print head has stopped allow the environment to cool and the door will eventually unlock when it is safe.
+
 - Use the carving tools to prise the print object from the PEI bed.
 - Give the nozzles a scrub with some towel (we do need to get a decent brush for this!).
 - Turn the printer off if you're finished with it.
 
 ##General know how
+A mechanism, known as an extruder sits behind the the reel. The extruder feeds the filament through Bowden tubes into the print head's needle valves which are encased by Daal nozzles. The nozzles are heated above 200 degrees and open and close regulating the flow of viscous material onto a PEI bed which is heated to over 100 degrees. This process is known as extrusion.
+
 - Filament reels carry a microchip this enables the [Robox Software][d] to identify and configure the printer environment for use (extrusion).
-- A mechanism, known as an extruder sits behind the the reel. The extruder feeds the filament through Bowden tubes into the print head's needle valves which are encased by Daal nozzles. The nozzles are heated above 200 degrees and open and close regulating the flow of viscous material onto a PEI bed which is heated to over 100 degrees. This process is known as extrusion.
 - ABS filament absorbes moisture so ensure your hands are clean if you are handling material (eg [ejecting material][er]).
 - The PEI bed is warped! You will get better results if you arrange your models in the corners of the bed. That said all corners are not equal! An issue (has/will/should) (be/been) raised.
 - Clean the bed between prints.
@@ -54,16 +63,19 @@
 ####Self-led learning
 
 #####Support
--The official [Roxox site is here][r]. It features manuals, support portal and a community.
--The unofficial community [Roboxing is here][rb].
+
+- The official [Roxox site is here][r]. It features manuals, support portal and a community.
+- The unofficial community [Roboxing is here][rb].
 
 #####Models
--[My MiniFactory][mmf] provides free and purchasable models that have been optimised for CEL-Robox 3D printers.
--[Thingiverse][tv].
+
+- [My MiniFactory][mmf] provides free and purchasable models that have been optimised for CEL-Robox 3D printers.
+- [Thingiverse][tv].
 
 #####Modelling
--To learn how to edit files see [this Instructible][stli].
--If you're a novice, get coffee, get google and search for "[Tinkercad][tc] tutorials" and get comfy.
+
+- To learn how to edit files see [this Instructible][stli].
+- If you're a novice, get coffee, get google and search for "[Tinkercad][tc] tutorials" and get comfy.
  
 [d]: http://www.cel-robox.com/downloads/ "CEL Robox offical site"
 [gi]: https://github.com/ljmu-cms/Robox-3D-Printing-/issues "LJMU CMS 3D Printer Issues"
